@@ -1,9 +1,8 @@
 import React, {Component} from 'react';
 import {Platform, KeyboardAvoidingView, SafeAreaView} from 'react-native'
 import {GiftedChat} from 'react-native-gifted-chat'
-
-import FireService from '../services/fire/Fire'
-import {ChatStyle, ChatAndroidStyle} from '../assets/style/chat.style';
+import FireService from '../service/Firebase.service'
+import {ChatStyle, ChatAndroidStyle} from '../assets/style/chat.style'
 
 export default class ChatC extends Component {
 

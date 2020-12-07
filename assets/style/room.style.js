@@ -28,13 +28,11 @@ export const RoomStyle = {
     },
     RoomInputStyel = {
         marginTop: 32,
-        borderWidth: "solid",
-        borderColor: "#BAB7C3",
         borderRadius: 30,
-        paddingHorizontal: 16,
+        padding: 16,
         fontWeight: "bold",
         color: "#514ESA",
-        height: 50,
+        height: '80px',
 
     },
     RoomTouchesStyle = {

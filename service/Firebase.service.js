@@ -26,6 +26,7 @@ class FireService {
                 time: firebase.database.ServerValue.TIMESTAMP,
                 user: msg.user
             }
+            console.log('>>>>>>>DATA', data)
 
             this.db.push(data)
         })
